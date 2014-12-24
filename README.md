@@ -1,6 +1,5 @@
-3rn3st0 on github.io
-====================
+#3rn3st0 en github.io
 
-Página personal de **Ernesto L. Chapon R.**
+Portafolio, curriculum profesional y autobiografía / Portfolio, professional curriculum and autobiography.
 
-Versión: 0.0.001a
+[***Ernesto L. Chapon R.***](http://3rn3st0.github.io/ "3rn3sto en github.io") aka **3rn3st0** / **7ur3c0**
