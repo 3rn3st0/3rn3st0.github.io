@@ -1,0 +1,50 @@
+html {
+    background: #000 url(../img/edificios_by_Todd_Quackenbush.jpeg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/* Encabezado / Título de la página ----------------------------------------------------------------------------------*/
+header{
+    background:#000;
+    opacity: .65;
+    width: 50%;
+    position: absolute;
+    left: calc(50% - 25%);
+    top: calc(50% - 15%);
+}
+
+h1 {
+    color: #fff;
+    width: auto;
+    text-align: center;
+    font-family: "Raleway";
+    font-size: 4em;
+}
+
+/* Pie de página -----------------------------------------------------------------------------------------------------*/
+footer{
+    width: 32%;
+    position: absolute;
+    left: calc(100% - 35%);
+    top: calc(100% - 5%);
+    background:#000;
+    opacity: .65;
+}
+
+.footer {
+    display:inline-block;
+    height: 1.6em;
+    color: #fff;
+    font-family: "Raleway";
+    font-size: .8em;
+    padding-left: 4%;
+    padding-top: .4em;
+}
+
+.copyleft{
+    height:12px;
+    width:12px;
+}
