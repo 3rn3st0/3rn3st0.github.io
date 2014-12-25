@@ -1,9 +1,10 @@
 html {
-    background: #000 url(../img/edificios_by_Todd_Quackenbush.jpeg) no-repeat center center fixed;
+    background: #000 url(../img/edificios_by_todd_quackenbush.jpeg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    min-height:100%;
 }
 
 /* Encabezado / Título de la página ----------------------------------------------------------------------------------*/
