@@ -1,51 +1,100 @@
+@import url('http://fonts.googleapis.com/css?family=Raleway');
+
 html {
-    background: #000 url(../img/edificios_by_todd_quackenbush.jpeg) no-repeat center center fixed;
+    background: #000 url('../img/bancos_by_rula_sibai.jpeg') no-repeat center center fixed;
     -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
     min-height:100%;
+
+    /* Propiedades agregadas el 2015-02-16 */
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    text-rendering:optimizeLegibility;          /* Propiedad NO estándar para mejorar el renderizado del*/
 }
 
 /* Encabezado / Título de la página ----------------------------------------------------------------------------------*/
 header{
+    position: absolute;
+    top: 0;
+    left: 0;
     background:#000;
     opacity: .65;
-    width: 50%;
+    width: 100%;
+    margin: auto;
+    height: 2em;
+    font-family: "Raleway";
+}
+
+header li{
+    font-style:normal;
+    display:block;
+    float:left;
+}
+
+header a {
+    color:#fff;
+    padding: .5em;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+header a:hover {
+    color:#000;
+    background:#fff;
+    padding: .5em;
+    text-decoration: none;
+}
+
+main{
+    width: 35%;
     position: absolute;
-    left: calc(50% - 25%);
+    left: calc(50% - 17.5%);
     top: calc(50% - 15%);
+    background:#000;
+    opacity: .65;
+    padding: 1em 0;
 }
 
 h1 {
     color: #fff;
-    width: auto;
     text-align: center;
     font-family: "Raleway";
-    font-size: 4em;
+    font-size: 7em;
+    padding: 0;
+    margin: 0;
 }
 
 /* Pie de página -----------------------------------------------------------------------------------------------------*/
 footer{
-    width: 32%;
-    position: absolute;
-    left: calc(100% - 35%);
-    top: calc(100% - 5%);
     background:#000;
-    opacity: .65;
+    height: 4vh;
+    left: 0;
+    opacity: .75;
+    position: absolute;
+    top: calc(100vh - 4vh);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
 }
 
 .footer {
-    display:inline-block;
-    height: 1.6em;
     color: #fff;
     font-family: "Raleway";
     font-size: .8em;
-    padding-left: 4%;
-    padding-top: .4em;
+    margin-left: 2%;
 }
 
 .copyleft{
     height:12px;
     width:12px;
+}
+
+footer span{
+    padding: 0 1em;
+    float:right;
 }
