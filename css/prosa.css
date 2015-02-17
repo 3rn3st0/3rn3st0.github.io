@@ -1,6 +1,6 @@
 /* Fuentes tipográficas */
-@import url('http://fonts.googleapis.com/css?family=Merriweather');         /* Serif */
-@import url(http://fonts.googleapis.com/css?family=Montserrat);             /* Sans Serif */
+@import url(http://fonts.googleapis.com/css?family=Merriweather);         /* Serif */
+@import url(http://fonts.googleapis.com/css?family=Montserrat);           /* Sans Serif */
 
 html {
     font-family: sans-serif;
