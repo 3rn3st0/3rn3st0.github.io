@@ -1,5 +1,3 @@
-@import url(http://fonts.googleapis.com/css?family=Raleway);
-
 html {
     background: #000 url('../img/bancos_by_rula_sibai.jpeg') no-repeat center center fixed;
     -webkit-background-size: cover;
@@ -13,6 +11,13 @@ html {
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
     text-rendering:optimizeLegibility;          /* Propiedad NO estándar para mejorar el renderizado del*/
+}
+
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Raleway'), url(https://fonts.gstatic.com/s/raleway/v9/0dTEPzkLWceF7z0koJaX1A.woff2) format('woff2'), url(https://fonts.gstatic.com/s/raleway/v9/IczWvq5y_Cwwv_rBjOtT0w.woff) format('woff');
 }
 
 /* Encabezado / Título de la página ----------------------------------------------------------------------------------*/
