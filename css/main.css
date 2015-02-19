@@ -160,13 +160,14 @@ footer span{
 /*--------------------------------------------------------------------------------------------------------------------*\
   Media Queries
 \*--------------------------------------------------------------------------------------------------------------------*/
-@media (max-width: 320px) {
+@media (min-device-width : 320px) and (max-device-width : 480px) {
     main{
-        width: 80%;
+        z-index: -9999;
+        width: 18em;
         position: absolute;
-        left: calc(50% - 40%);
+        left: calc(50% - 9em);
         top: calc(50% - 15%);
-        background:#ff0;
+        background:#f00;
         opacity: .65;
         padding: 1em 0;
     }
@@ -175,7 +176,7 @@ footer span{
         color: #fff;
         text-align: center;
         font-family: "Poiret One";
-        font-size: 3.5em;
+        font-size: 4em;
         padding: 0;
         margin: 0;
     }
@@ -191,14 +192,14 @@ footer span{
     }
 }
 
-@media (max-width: 480px) {
+@media (min-device-width : 481px) and (max-device-width: 768px) {
     main{
         z-index: -9999;
-        width: 70%;
+        width: 20em;
         position: absolute;
-        left: calc(50% - 35%);
+        left: calc(50% - 10em);
         top: calc(50% - 15%);
-        background:#000;
+        background:#0af;
         opacity: .65;
         padding: 1em 0;
     }
@@ -223,17 +224,66 @@ footer span{
     }
 }
 
-@media (min-width: 600px) {
+@media (min-device-width : 769px) and (max-device-width: 1024px) {
+    main{
+        z-index: -9999;
+        width: 24em;
+        position: absolute;
+        left: calc(50% - 12em);
+        top: calc(50% - 15%);
+        background:#c2f;
+        opacity: .65;
+        padding: 1em 0;
+    }
+
+    h1 {
+        color: #fff;
+        text-align: center;
+        font-family: "Poiret One";
+        font-size: 5.5em;
+        padding: 0;
+        margin: 0;
+    }
+
+    .footer {
+        font-size: .8em;
+        margin-left: 2%;
+    }
+
+    .copyleft{
+        height:.95em;
+        width:.95em;
+    }
 }
 
-@media (min-width: 768px) {
-}
+@media (min-device-width : 1025px) and (max-device-width: 1200px) {
+    main{
+        z-index: -9999;
+        width: 35%;
+        position: absolute;
+        left: calc(50% - 17.5%);
+        top: calc(50% - 15%);
+        background:#0f3;
+        opacity: .65;
+        padding: 1em 0;
+    }
 
-@media (min-width: 900px) {
-}
+    h1 {
+        color: #fff;
+        text-align: center;
+        font-family: "Poiret One";
+        font-size: 5.5em;
+        padding: 0;
+        margin: 0;
+    }
 
-@media (min-width: 1024px) {
-}
+    .footer {
+        font-size: .8em;
+        margin-left: 2%;
+    }
 
-@media (min-width: 1200px) {
+    .copyleft{
+        height:.95em;
+        width:.95em;
+    }
 }
