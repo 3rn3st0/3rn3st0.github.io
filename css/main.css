@@ -167,7 +167,7 @@ footer span{
         position: absolute;
         left: calc(50% - 9em);
         top: calc(50% - 15%);
-        background:#f00;
+        background:#000;
         opacity: .65;
         padding: 1em 0;
     }
@@ -199,7 +199,7 @@ footer span{
         position: absolute;
         left: calc(50% - 10em);
         top: calc(50% - 15%);
-        background:#0af;
+        background:#000;
         opacity: .65;
         padding: 1em 0;
     }
@@ -231,7 +231,7 @@ footer span{
         position: absolute;
         left: calc(50% - 12em);
         top: calc(50% - 15%);
-        background:#c2f;
+        background:#000;
         opacity: .65;
         padding: 1em 0;
     }
@@ -263,7 +263,7 @@ footer span{
         position: absolute;
         left: calc(50% - 17.5%);
         top: calc(50% - 15%);
-        background:#0f3;
+        background:#000;
         opacity: .65;
         padding: 1em 0;
     }
