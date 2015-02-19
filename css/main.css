@@ -1,5 +1,5 @@
 html {
-    background: #000 url('../img/bancos_by_rula_sibai.jpeg') no-repeat center center fixed;
+    background: #555 url('../img/casco_colonial_coro.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
        -moz-background-size: cover;
          -o-background-size: cover;
@@ -20,39 +20,90 @@ html {
   src: local('Raleway'), url(https://fonts.gstatic.com/s/raleway/v9/0dTEPzkLWceF7z0koJaX1A.woff2) format('woff2'), url(https://fonts.gstatic.com/s/raleway/v9/IczWvq5y_Cwwv_rBjOtT0w.woff) format('woff');
 }
 
-/* Encabezado / Título de la página ----------------------------------------------------------------------------------*/
-header{
-    position: absolute;
-    top: 0;
-    left: 0;
-    background:#000;
-    opacity: .65;
-    width: 100%;
-    margin: auto;
-    height: 2em;
-    font-family: "Raleway";
+@font-face {
+  font-family: 'Poiret One';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Poiret One'), local('PoiretOne-Regular'), url(https://fonts.gstatic.com/s/poiretone/v4/HrI4ZJpJ3Fh0wa5ofYMK8fk_vArhqVIZ0nv9q090hN8.woff2) format('woff2'), url(https://fonts.gstatic.com/s/poiretone/v4/HrI4ZJpJ3Fh0wa5ofYMK8RsxEYwM7FgeyaSgU71cLG0.woff) format('woff');
 }
 
-header li{
-    font-style:normal;
-    display:block;
-    float:left;
+/*--------------------------------------------------------------------------------------------------------------------*\
+  Menú superior de la página
+\*--------------------------------------------------------------------------------------------------------------------*/
+ul {
+    text-align: left;
+    display: inline;
+    margin: 0;
+    padding: .5em 4px 17px 0;
+    list-style: none;
 }
 
-header a {
+ul li {
+    display: inline-block;
+    margin-right: -4px;
+    position: relative;
+    background: #000;
     color:#fff;
-    padding: .5em;
-    text-decoration: none;
-    font-size: 1.2em;
+    cursor: pointer;
+    opacity: .7;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+ul li:hover a {
+    background: #000;
+    color: #fff;
 }
 
-header a:hover {
-    color:#000;
-    background:#fff;
-    padding: .5em;
-    text-decoration: none;
+ul li ul {
+  padding: 0;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 150px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+  -webkit-transition: opacity 0.5s;
+  -moz-transition: opacity 0.5s;
+  -ms-transition: opacity 0.5s;
+  -o-transition: opacity 0.5s;
+  -transition: opacity 0.5s;
 }
 
+ul a {
+    display:block;
+    padding: 15px 20px;
+    text-decoration:none;
+}
+
+ul a:visited { color:#fff; }
+
+ul li ul li {
+  background: #000;
+  display: block; 
+  color: #fff;
+  text-shadow: 0 -1px 0 #000;
+}
+ul li ul li:hover a {
+  background: #fff;
+  color:#000;
+}
+
+ul li:hover ul {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*\
+  Título centrado
+\*--------------------------------------------------------------------------------------------------------------------*/
 main{
     width: 35%;
     position: absolute;
@@ -66,13 +117,15 @@ main{
 h1 {
     color: #fff;
     text-align: center;
-    font-family: "Raleway";
+    font-family: "Poiret One";
     font-size: 7em;
     padding: 0;
     margin: 0;
 }
 
-/* Pie de página -----------------------------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------------------------------------------*\
+  Pie de página
+\*--------------------------------------------------------------------------------------------------------------------*/
 footer{
     background:#000;
     height: 4vh;
@@ -102,4 +155,85 @@ footer{
 footer span{
     padding: 0 1em;
     float:right;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*\
+  Media Queries
+\*--------------------------------------------------------------------------------------------------------------------*/
+@media (max-width: 320px) {
+    main{
+        width: 80%;
+        position: absolute;
+        left: calc(50% - 40%);
+        top: calc(50% - 15%);
+        background:#ff0;
+        opacity: .65;
+        padding: 1em 0;
+    }
+
+    h1 {
+        color: #fff;
+        text-align: center;
+        font-family: "Poiret One";
+        font-size: 3.5em;
+        padding: 0;
+        margin: 0;
+    }
+
+    .footer {
+        font-size: .55em;
+        margin-left: 2%;
+    }
+
+    .copyleft{
+        height:.85em;
+        width:.85em;
+    }
+}
+
+@media (max-width: 480px) {
+    main{
+        z-index: -9999;
+        width: 70%;
+        position: absolute;
+        left: calc(50% - 35%);
+        top: calc(50% - 15%);
+        background:#000;
+        opacity: .65;
+        padding: 1em 0;
+    }
+
+    h1 {
+        color: #fff;
+        text-align: center;
+        font-family: "Poiret One";
+        font-size: 4.5em;
+        padding: 0;
+        margin: 0;
+    }
+
+    .footer {
+        font-size: .75em;
+        margin-left: 2%;
+    }
+
+    .copyleft{
+        height:.85em;
+        width:.85em;
+    }
+}
+
+@media (min-width: 600px) {
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 900px) {
+}
+
+@media (min-width: 1024px) {
+}
+
+@media (min-width: 1200px) {
 }
