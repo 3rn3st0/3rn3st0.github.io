@@ -42,10 +42,9 @@ ul li {
     display: inline-block;
     margin-right: -4px;
     position: relative;
-    background: #000;
-    color:#fff;
+    background: #fff;
     cursor: pointer;
-    opacity: .7;
+    opacity: .75;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
     -ms-transition: all 0.5s;
@@ -53,7 +52,7 @@ ul li {
     transition: all 0.5s;
 }
 ul li:hover a {
-    background: #000;
+    background: #222;
     color: #fff;
 }
 
@@ -82,14 +81,12 @@ ul a {
     text-decoration:none;
 }
 
-ul a:visited { color:#fff; }
+ul a:visited { color:#ababab; }
 
 ul li ul li {
-  background: #000;
   display: block; 
-  color: #fff;
-  text-shadow: 0 -1px 0 #000;
 }
+
 ul li ul li:hover a {
   background: #fff;
   color:#000;
