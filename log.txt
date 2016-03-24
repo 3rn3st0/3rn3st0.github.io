@@ -1,0 +1,30 @@
+Cambiado la fuente Raleway por la fuente Poiret One en el título de la página
+Se agregaron Media Queries para resoluciones de 320 y 480 píxeles de ancho.
+Se modificó el menú principal para hacerlo menos invasivo.
+Se cambiaron los fondos por los aportados por David Hernández de la CSL
+Se agregó una función en JS para que el fondo de la página principal sea aleatorio.
+Se agregó una página de créditos para hacer reconocimiento a quienes hicieron aportes a la página.
+
+
+Sobre las imágenes.
+* cacique_fenis_carrero.jpg
+Cacique Fenis Carrero del pueblo Quinanoque.
+Lagunillas, Mérida, Venezuela.
+Junio de 2014.
+
+* casco_colonial_coro.jpg
+Casa del Sol.
+Coro, Falcón, Venezuela.
+Septiembre de 2014.
+
+* senderos.jpg
+Laguna Victoria
+Mérida, Venezuela
+Julio de 2011
+
+Sobre mi.
+David A. Hernández Aponte
+Merideño. Entusiasta de la fotografía y del Software Libre. Se inició en el software libre a finales de los 90 y es hackctivista desde 2005. Miembro de diferentes comunidades de software libre del país como la Comunidad Ubuntu Venezuela, Python Venezuela y Comunidad Canaima. Actualmente se desempeña como desarrollador en el Centro Nacional de Desarrollo e Investigación en Tecnologías Libres (CENDITEL).
+
+Web: http://davidhdz.tk
+Portafolio fotográfico: http://portfolio.davidhdz.tk/
